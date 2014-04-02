@@ -16,9 +16,9 @@ class profile::params {
 
   ### Application related parameters
 
-  $config_dir = '/etc/profile.d',
+  $config_dir = '/etc/profile.d'
 
-  $config_file = '/etc/profile',
+  $config_file = '/etc/profile'
 
   $config_file_mode = $::operatingsystem ? {
     default => '0644',
