@@ -27,7 +27,7 @@ define profile::script (
   }
 
   file { "profile_${priority}_${safe_name}":
-    path    => "${profile::configdir}/${priority}-${safe_name}.sh",
+    path    => "${profile::config_dir}/${priority}-${safe_name}.sh",
     mode    => $mode,
     owner   => $owner,
     group   => $group,
