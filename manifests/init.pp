@@ -74,7 +74,7 @@ class profile (
   $audit_only          = params_lookup( 'audit_only' , 'global' ),
   $config_dir          = params_lookup( 'config_dir' ),
   $config_file         = params_lookup( 'config_file' )
-  ) inherits profile::params {
+  ) inherits ::profile::params {
 
   ### Internal variables setting
   # Configurations directly retrieved from profile::params
